@@ -1,0 +1,20 @@
+﻿<Window x:Class="Restaurant.AdminPlat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restaurant"
+        mc:Ignorable="d"
+        Title="AdminPlat" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock TextWrapping="Wrap" Margin="365,265,364,153"><Run Language="fr-fr" Text="Password"/></TextBlock>
+        <TextBox x:Name="TBIdent" HorizontalAlignment="Center" Margin="0,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Margin="373,176,373,242" TextWrapping="Wrap"><Run Language="fr-fr" Text="Login"/></TextBlock>
+        <Button Content="LogIn" HorizontalAlignment="Center" Margin="0,365,0,0" VerticalAlignment="Top" Height="24" Width="121" Click="Button_Click"/>
+        <TextBox x:Name="PWD" HorizontalAlignment="Center" Margin="0,304,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock Margin="340,73,296,0" TextWrapping="Wrap" Foreground="Black" FontSize="23" Height="28" VerticalAlignment="Top"><Run Language="fr-fr" Text="Login Page"/></TextBlock>
+
+
+    </Grid>
+</Window>
